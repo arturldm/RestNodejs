@@ -10,7 +10,7 @@ var port = process.env.PORT || 8080;
 var router = express.Router();
 
 router.get('/', function(req, res) {
-	res.json({ message: 'Waib Tecnologias - API'});
+	res.json({ message: 'Artur Tecnologias - API'});
 });
 
 // registrando as rotas
